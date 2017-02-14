@@ -38,12 +38,15 @@ public class CalculatorTest {
         assertEquals(2f, result);
     }
 
-    @Test(expected = ArithmeticException.class)
-    public void divide_with_exception() throws ArithmeticException {
+    @Test
+    public void divide_by_zero() throws ArithmeticException {
         //set
         Calculator calculator = new Calculator();
         //test
-        calculator.divide(2, 0);
+        float result = calculator.divide(2, 0);
+        //assert
+        assertEquals(0f, result);
+
     }
 
 
