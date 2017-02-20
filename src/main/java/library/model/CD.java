@@ -1,6 +1,8 @@
 package library.model;
 
 
+import java.util.Objects;
+
 public class CD {
 
     protected String title;
@@ -16,7 +18,17 @@ public class CD {
         return title;
     }
 
-    public int getTime() {
-        return time;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        CD cd = (CD) o;
+        return time == cd.time &&
+                Objects.equals(title, cd.title);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(title, time);
     }
 }

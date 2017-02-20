@@ -3,19 +3,15 @@ package uniqueChar;
 
 public class UniqueChar {
 
-    public boolean isUniqueChar(String asciiStr) {
-        if (asciiStr == null || asciiStr.isEmpty()) {
+    public boolean isUniqueChar(String str) {
+        boolean containsUnique = false;
+        if (str == null || str.isEmpty()) {
             return false;
         }
-        boolean[] charSet = new boolean[256];
-        for (int i = 0; i < asciiStr.length(); i++) {
-            int asciiVal = asciiStr.charAt(i);
-            if (charSet[asciiVal]) {
-                return false;
-            }
-            charSet[asciiVal] = true;
+        for (char c : str.toCharArray()) {
+            containsUnique = str.indexOf(c) == str.lastIndexOf(c);
         }
-        return true;
-    }
+        return containsUnique;
 
+    }
 }

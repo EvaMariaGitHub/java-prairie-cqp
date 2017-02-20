@@ -32,7 +32,7 @@ public class UniqueCharTest {
     @Test
     public void isUniqueChar_with_ascii_string() {
         //set
-        String text = "abcdef";
+        String text = "abcdefghijklmopqrstuvwxyz";
         UniqueChar uniqueChar = new UniqueChar();
         //test
         boolean result = uniqueChar.isUniqueChar(text);
