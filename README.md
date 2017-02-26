@@ -24,7 +24,7 @@ If there are already 3 DVDs and the user want to give more. The library doesn't 
 If there are already some DVDs and the user try to give a dvd that the library already has. The library doesn't accept these dvds.<br/>
 
 For example:<br/>
-The library has 3 DVDs and the user give 4 DVDs. The library doesn't accept it. So the library has 3 DVD.<br/>
+The library has 2 DVDs and the user give 4 DVDs. The library doesn't accept it. So the library has 3 DVD.<br/>
 The library have 1 DVD like DVD dvd = new DVD("dvd", 120, Movie.HORROR, false) and the user give the same DVD. The library doesn't accept it.<br/>
 
 Implement library and create unit test
@@ -173,31 +173,31 @@ You are not working anymore on the branch file-second<br/>
 PART 6:<br/>
 Now, you work on a new evolution.<br/>
 
--Create a branch "three"<br/>
--Create a file three.txt<br/>
--Commit and push it<br/>
--Create a file four.txt<br/>
--Commit and push it<br/>
+- Create a branch "three"<br/>
+- Create a file three.txt<br/>
+- Commit and push it<br/>
+- Create a file four.txt<br/>
+- Commit and push it<br/>
 
 PART 7:<br/>
 There is a urgent fix (again), we need the file four.txt only on prod<br/>
 
--Cherry pick this file on master<br/>
--Add the text "G H I J K M"<br/>
--Commit and Push it<br/>
+- Cherry pick this file on master<br/>
+- Add the text "G H I J K M"<br/>
+- Commit and Push it<br/>
 
 PART 8:<br/>
 You have a time to work on the branch three<br/>
 
--Add "G H I J K L M" on the four.txt<br/>
--Commit and Push it<br/>
+- Add "G H I J K L M" on the four.txt<br/>
+- Commit and Push it<br/>
 
 PART 9:<br/>
 You want to merge the four.txt on your master<br/>
 
--Merge it<br/>
--if there is some conflict, correct it<br/>
--Commit and Push it<br/>
+- Merge it<br/>
+- if there is some conflict, correct it<br/>
+- Commit and Push it<br/>
 
 
 ### Library part II
