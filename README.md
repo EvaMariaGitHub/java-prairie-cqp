@@ -79,19 +79,18 @@ result<br/>
 Implement mower and create unit test.
 
 ### String Calculator (DOJO)
-Implement a StringCalculator that allows to calculate with String.
-
-
-### altERnaTIng cAsE <=> ALTerNAtiNG CaSe
-Define to_alternating_case(char*) such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase.<br/>
-For example:<br/>
-altERnaTIng cAsE <=> ALTerNAtiNG CaSe
-
+Implement and test a StringCalculator that allows to calculate with String.
 
 ### LetterCompress
 Implement and test a method to perform basic string compression using the counts of repeated characters.<br/>
 For example, the string aabcccccaaa would become a5b1c5.
 
+### LowerUpperString
+Define toAlternativeString(String) such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase.<br/>
+For example:<br/>
+altERnaTIng cAsE <=> ALTerNAtiNG CaSe
+
+Implement and test it
 
 ### Sum of the first nth term of Series
 Your task is to write a function which returns the sum of following series upto nth term(parameter).<br/>
@@ -199,6 +198,3 @@ You want to merge the four.txt on your master<br/>
 -Merge it<br/>
 -if there is some conflict, correct it<br/>
 -Commit and Push it<br/>
-
-
-
