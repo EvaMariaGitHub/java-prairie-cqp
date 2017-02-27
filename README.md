@@ -210,7 +210,7 @@ The Library must have these methods only now:<br/>
 * List<CD> putCDs(List<CD> cds);<br/>
 
 Between 1pm and 7pm<br/>
-The library has same rule with the rule of the hour<br/>
+The library has same rule with hour rule<br/>
 
 Outside 1pm and 7pm<br/>
 The library is becoming online<br/>
@@ -219,6 +219,7 @@ The book has one day shipping<br/>
 The dvd has two day shipping by default<br/>
 - if the kind of dvd is HORROR, it's one day<br/>
 - if the kind of dvd is in 3D, it's three day<br/>
+
 The cd has three day shipping<br/>
 
 Implement and test it<br/>
