@@ -229,3 +229,24 @@ With this method List<Book> storeBook()<br/>
 he/she stores 3 books on the Library<br/>
 
 Implement and test it<br/>
+
+
+### StreamOperation (Java 1.8)
+On StreamOperation (src/main/stream), convert List person to stream.<br/>
+Use filter, map, collect and count.<br/>
+
+### PlantFactory (Design pattern Factory)
+Tomato has a name, waterLevel and fertilizer.<br/>
+Potato has a name, waterLevel and fertilizer.<br/>
+
+With Factory design pattern, create and test a PlantFactory that allows you to create a plant.<br/>
+
+### HeroBuilder (Design pattern Builder)
+A Profession can be WARRIOR, THIEF, PRIEST.<br/>
+A HairType can be BALD, SHORT, CURLY, LONG_STRAIGHT, LONG_CURLY.<br/>
+A HairColor can be WHITE, BLOND, RED, BROWN, BLACK.<br/>
+A Armor can be CLOTHES, LEATHER.<br/>
+A Weapon can be DAGGER, SWORD, AXE, BOW.<br/>
+A Hero has profession, name, hairType, hairColor, armor, weapon.<br/>
+
+With Builder design pattern, create and test a HeroBuilder that allows you to create a fluent hero.<br/>
