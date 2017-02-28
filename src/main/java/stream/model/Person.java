@@ -3,17 +3,12 @@ package stream.model;
 public class Person {
 
     private String name;
-
     private String surname;
-
     private int age;
-
     private String language;
-
     private boolean married;
 
     public Person(){
-
     }
 
     public Person(String name, String surname, int age, String language, boolean married) {
@@ -43,7 +38,6 @@ public class Person {
     public int getAge() {
         return age;
     }
-
 
     public void setAge(int age) {
         this.age = age;

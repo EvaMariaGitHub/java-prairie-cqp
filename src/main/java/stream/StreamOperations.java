@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StreamOperations {
+
     private List<Person> persons;
 
     public StreamOperations(List<Person> persons) {
