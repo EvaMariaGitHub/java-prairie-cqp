@@ -73,8 +73,8 @@ public class StreamOperationsTest {
     public void toUpperCaseAndSorted_with_five_person() {
         //set
         Person person = new Person("name", "surname", 20, "french", true);
-        Person person1 = new Person("name1", "surname1", 20, "english", false);
-        Person person2 = new Person("name2", "surname2", 30, "spain", true);
+        Person person1 = new Person("name2", "surname1", 20, "english", false);
+        Person person2 = new Person("name1", "surname2", 30, "spain", true);
         Person person3 = new Person("name3", "surname3", 40, "french", false);
         List<Person> persons = new ArrayList<>();
         persons.add(person);

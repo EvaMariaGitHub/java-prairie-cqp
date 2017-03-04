@@ -9,7 +9,11 @@ public class UniqueChar {
             return false;
         }
         for (char c : str.toCharArray()) {
-            containsUnique = str.indexOf(c) == str.lastIndexOf(c);
+            if (str.indexOf(c) == str.lastIndexOf(c)) {
+                containsUnique = true;
+            } else {
+                containsUnique = false;
+            }
         }
         return containsUnique;
 
